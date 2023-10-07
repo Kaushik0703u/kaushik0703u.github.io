@@ -9,7 +9,7 @@
 /* header IMG */
 .header-main{
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(255, 251, 0);
     height: fit-content;
     display: flex;
     position: fixed;
@@ -267,7 +267,7 @@ transform: translateY(-20px);
     margin: 20px 45px;
     color: black;
     background-color:yellow;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -275,10 +275,10 @@ transform: translateY(-20px);
 }
 .brand-name{
     /* width: 80%; */
-    margin: 20px 20px;
+    margin: 40px 20px 0px 20px;
     color: red;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     display: flex;
     font-weight: 400;
     justify-content: center;
@@ -312,6 +312,39 @@ align-items: center;
     box-shadow: 0px 2px 6px black;
     border-radius: 5px;
     margin: 20px 20px;
+}
+.head{
+    background-color: yellow;
+    margin: 0px 50px;
+    color:black;
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+/* box-shadow: 0px 2px 6px black;
+border-radius: 5px; */
+}
+.partext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.sales-price{
+    color: red;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @media(max-width:600px){
     .list-car-name ul{

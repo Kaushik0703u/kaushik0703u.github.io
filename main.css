@@ -60,7 +60,7 @@ a:hover{
 }
 
 .navbar-main-list ul li ul{
-    display: none;
+    display: block;
     width: 80px;  
     background-color: #faf605;
 }
